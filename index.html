@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Câmera Inteligente IM4 - Intelbras</title>
+    <title>Camera IM4 Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(to right, orange, gold);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .feature-cards {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 24%;
+        }
+        .benefits {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+        }
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem-vindo à Câmera Inteligente IM4</h1>
-    <p>Explore as funcionalidades e vantagens do produto.</p>
+    <header>
+        <h1>Welcome to the Camera IM4</h1>
+    </header>
+    <div class="feature-cards">
+        <div class="card">
+            <h2>Feature 1</h2>
+            <p>Description of feature 1.</p>
+        </div>
+        <div class="card">
+            <h2>Feature 2</h2>
+            <p>Description of feature 2.</p>
+        </div>
+        <div class="card">
+            <h2>Feature 3</h2>
+            <p>Description of feature 3.</p>
+        </div>
+        <div class="card">
+            <h2>Feature 4</h2>
+            <p>Description of feature 4.</p>
+        </div>
+    </div>
+    <div class="benefits">
+        <h2>Benefits</h2>
+        <ul>
+            <li>Benefit 1</li>
+            <li>Benefit 2</li>
+            <li>Benefit 3</li>
+        </ul>
+    </div>
+    <a href="https://www.mercadolivre.com.br/" target="_blank">
+        <button class="floating-button">🛒</button>
+    </a>
 </body>
 </html>
